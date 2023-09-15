@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+#main{
+    height: 100%;
+    width: 100%;
+    }
+    html,body{
+        width: 100%;
+        height: 100%;
+    }
+#top{
+    width: 100%;
+     height: 60%;
+     background-image: url(https://cdn.pixabay.com/photo/2017/07/24/12/43/schrecksee-2534484_1280.jpg);
+     background-size: cover;
+     background-position: 50% 60%;
+      
+    }
+#bottom{
+    display: flex;
+    width: 100%;
+     height: 40%;
+     background-color: darkseagreen;
+}
+
+#b1{
+    width: 25%;
+    height: 100%;
+    /* background: bisque; */
+    background-image: url(https://thumbs.dreamstime.com/b/sibiu-main-square-view-above-24221899.jpg?w=768);
+ background-position: center;  
+ background-size: cover;
+}
+
+#b2{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/003/723/219/large_2x/summer-seascape-beautiful-waves-blue-sea-water-in-sunny-day-top-view-from-drone-sea-aerial-view-amazing-tropical-nature-background-beautiful-bright-sea-with-waves-splashing-and-beach-sand-concept-photo.jpg);
+   background-position: center;
+   background-size: cover;
+    background-color: aqua;
+   font-size: larger;
+   color: rgba(58, 6, 40, 0.776);
+   justify-content: space-between;
+   padding: 0 2vw;
+}
+
+#b3{
+    width: 20%;
+    height: 100%;
+   
+}
+
+
+#b3top{
+    width: 100%;
+    height: 50%;
+    background-color: orangered;
+    
+   
+}
+
+#b3bottom{
+    width: 100%;
+    height: 50%;
+    background-color: aquamarine;
+    background-image: url(https://media.istockphoto.com/id/155439315/photo/passenger-airplane-flying-above-clouds-during-sunset.jpg?s=612x612&w=0&k=20&c=LJWadbs3B-jSGJBVy9s0f8gZMHi2NvWFXa3VJ2lFcL0=);
+   background-position: center;
+   background-size: cover;
+}
+#b4{
+    width: 30%;
+    height: 100%;
+   
+}
+
+#b4top{ 
+    display: flex;
+   padding: 20px;
+    width: 100%;
+   height:  80%;
+   background-color: pink;
+   
+
+
+
+}
+
+#b4bottom{
+    display: flex;
+    width: 100%;
+     height: 20%;
+     background-color: black;
+}
+#overlay{
+    position:relative;
+    width: 100%;
+ height: 100%;
+ background-color: rgba(0, 0, 0, 0.185);
+}
+#text{
+    align-items: center;
+     justify-content: space-between;
+   
+    display: flex;
+    position: absolute;
+    bottom: 30%;
+    padding: 0 2%;
+    width: 100%;
+    /* font-size: xx-large; */
+    height: 120px;
+    /* background-color: red; */
+}
+#text h1{
+    color: beige;
+    font-weight: 500;
+font-size: 4vw;
+
+
+}
+#textright{
+    display: flex;
+    /* justify-content: start; */
+    /* font-size:x-large; */
+     /* padding: 0 21vw; 
+    color: beige ;
+    font-weight: 40 ; */
+    /* justify-content: start; */
+    }
+
+
+    #textright p{
+        display: flex;
+        justify-content: space-between;
+        font-weight: 300;
+        padding: 0 24vw;
+         /* width: 79%;  */
+         color: beige;
+       font-size: x-large;
+        font-weight: 500;
+
+    }
+
+#icon{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    color: beige;
+     font-size: large;
+   
+}
+ .notf{  
+    margin-top: 15px;
+  
+    justify-content: start;
+    display: flex; 
+    flex-direction: column;
+  /* justify-content: space-between; */
+}
+
+.notf #photo{
+    display: flex;
+    flex-direction: column;
+  height: 40px;
+  width: 40px;
+  border-radius: 45% ;
+  background-color: aqua;
+  margin: 20px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu7uACFkfXf4hN0Fval9NuE1K_Xfs3rWCmahGxhY-o&s);
+   background-size: cover;
+  background-position: center;
+     
+}
+#b4bottom{
+
+    color: aliceblue;
+   padding: 10px;
+}
+
+.notf p{
+    width: 90%;
+   
+   
+}
+.phone{
+    background-color: rgba(28, 125, 173, 0.858);
+}
+.whatsapp{
+background-color: rgb(22, 184, 68);
+}
